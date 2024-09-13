@@ -1,4 +1,4 @@
-module staking::stake {
+module stake::stake {
     use std::signer;
     use std::string::{Self, String};
     use aptos_framework::coin::{Self, Coin};
