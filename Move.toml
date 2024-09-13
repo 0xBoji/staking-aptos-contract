@@ -1,0 +1,14 @@
+[package]
+name = "Stake_Contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+stake = "0xStake"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
